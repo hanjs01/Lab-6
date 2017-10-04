@@ -1,0 +1,9 @@
+
+		The main differences between the code in the .ump file and the code in the 3 java classes 
+	is that the code in the .ump file doesn't declare items in the classes in the more official
+	way of java classes. In the .java classes, the fields have the qualifier private in front, and 
+	the classes have the qualifier public. In the .ump file the classes, fields and methods do not
+	have qualifiers and the relationship between the classes is not as clear.
+	
+		The plugin could be useful for designing a large and complicated project in a simple and 
+	easy to see manner. However, transferring the code to eclipse doesn't output the code expected.
