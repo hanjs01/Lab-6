@@ -1,0 +1,91 @@
+class Customer
+{
+  name;
+  birthDate;
+  address;
+  city;
+  
+  String name()
+  {
+    return name;
+  }
+  
+  String address()
+  {
+    return address;
+  }
+  
+  String birthDate()
+  {
+    return birthDate;
+  }
+  
+  String city()
+  {
+    return city;
+  }
+  
+  
+}
+
+class Order
+{
+  
+  orderDate;
+  shipDate;
+  numShipDays;
+  shippingCompName;
+  
+  String orderDate()
+  {
+    return orderDate;
+  }
+  
+   String shipDate()
+  {
+    return shipDate;
+  }
+  
+   String numShipDays()
+  {
+    return numShipDays;
+  }
+  
+   String shippingCompName()
+  {
+    return shippingCompName;
+  }
+}
+
+class Account
+{
+  
+  int accountNum;
+  email;
+  long ccNum;
+  double amountCharged;
+  
+  int accountNum()
+  {
+    return accountNum;
+  }
+  
+  String email()
+  {
+    return email;
+  }
+  
+  long ccNum()
+  {
+    return ccNum;
+  }
+  
+  double amountCharged()
+  {
+    return amountCharged;
+  }
+  
+  
+
+}
+
